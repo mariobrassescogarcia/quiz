@@ -29,8 +29,46 @@ function question2() {
 		alert("Please we just need it by saying yes or no")
 		return question2()
 	}
-	responses.push(question2)
+	responses.push(single)
 
 }
 
 question2()
+
+
+
+function question3() {
+
+	var team = prompt("Which of these Spanish football teams is the best: Barcelona, Atletico or Madrid?")
+	team = team.toLowerCase()
+
+	switch (team) {
+
+			case "barcelona":
+				  team = "Barcelona"
+				  break;
+			
+				
+			case "atletico":
+				team = "Atletico"
+				break;
+			
+
+			case "madrid":
+				team = "Madrid"
+				break;
+			
+
+			default:
+				alert("Please choose only one of the given options")
+				return question3()
+			
+
+	responses.push(team)
+
+	}
+
+}
+
+question3()
+	
