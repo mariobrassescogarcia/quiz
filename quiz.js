@@ -107,7 +107,7 @@ function question(5) {
 		return math
 	}
 	
-	else 
+	else {
 		alert("Are you sure? Please reconsider your answer...")
 		return question5()	
 	}	
