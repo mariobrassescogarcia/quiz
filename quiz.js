@@ -84,8 +84,10 @@ function question4() {
 	}
 
 
-	else
+	else {
 		return age
+	}
+		
 
 	responses.push(age)
 
@@ -98,7 +100,25 @@ question4()
 
 
 
+function question(5) {
+	var math = prompt("What's the square root of 4?")
 
+	if (math === 2 || math === -2) {
+		return math
+	}
+	
+	else 
+		alert("Are you sure? Please reconsider your answer...")
+		return question5()	
+	}	
+
+	responses.push(math)
+
+
+}
+
+
+question5()
 
 
 
