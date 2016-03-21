@@ -71,4 +71,46 @@ function question3() {
 }
 
 question3()
+
+
+
+function question4() {
+	var age = prompt("What's your age?")
+	age = parseInt(age)
+
+	if (age < 18) {
+		alert("You should be at least 18 to see the content of this website")
+
+	}
+
+
+	else
+		return age
+
+	responses.push(age)
+
+}
+
+
+question4()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
