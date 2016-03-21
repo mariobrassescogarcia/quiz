@@ -100,16 +100,15 @@ question4()
 
 
 
-function question(5) {
+function question5() {
 	var math = prompt("What's the square root of 4?")
 
 	if (math === 2 || math === -2) {
-		return math
+		math = true
 	}
 	
 	else {
-		alert("Are you sure? Please reconsider your answer...")
-		return question5()	
+		math = false	
 	}	
 
 	responses.push(math)
